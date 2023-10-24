@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-    .bars {
-        @apply bg-white h-1 w-6 mb-1
-    }
+  .bars {
+    @apply bg-white h-1 w-6 mb-1;
+  }
+
+  .subjectText {
+    @apply text-font-gray font-[600] md:text-white  xl:text-[26px] min-[768px]:text-[17px];
+  }
+
+  .desktopSubjectText {
+    @apply text-font-gray font-[600] text-[20px];
+  }
+
+  .desktopImagesContainer {
+    @apply w-[96%] h-[420px] mb-2  relative;
+  }
+
+  .desktopImages {
+    @apply rounded-[20px]  shadow-lg;
+  }
 }

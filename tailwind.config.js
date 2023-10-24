@@ -11,7 +11,7 @@ module.exports = {
         anton: ["anton"],
       },
       colors: {
-        background: "#f1f1f1",
+        background: "#edf2f7",
         white: "#ffff",
         "primary-red": "#eb2c2c",
         "second-red": "#e90718",
