@@ -2,7 +2,7 @@ import Image from "next/image";
 import mackenzie_logo from "../../assets/images/main_logo_mackenzie.png";
 import MenuItem from "../UI/MenuItem";
 import Button from "../UI/Button";
-import BurgerMenu from "../UI/BugerMenu";
+import BurgerMenu from "../UI/BurgerMenu";
 
 export default function Header() {
   return (
@@ -25,7 +25,7 @@ export default function Header() {
             <Button
               href="#"
               title="Login"
-              className="bg-white pl-6 pr-2 pt-[2px] pb-[4px] rounded-[4px] text-sm text-primary-red font-[700] "
+              className="bg-white pl-6 pr-2 pt-[2px] pb-[4px] rounded-[4px] text-[17px] text-primary-red font-[700] "
             />
           </div>
         </div>
