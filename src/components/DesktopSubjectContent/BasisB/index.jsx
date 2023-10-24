@@ -6,7 +6,7 @@ export default function BasisB() {
   return (
     <div>
       <div className="desktopImagesContainer mt-16 mb-8">
-        <Image src={scienceGirl} layout="fill" className="desktopImages" />
+        <Image src={scienceGirl} fill className="desktopImages" sizes="inherit"  alt="Science Girl"/>
       </div>
 
       <div>
@@ -19,7 +19,7 @@ export default function BasisB() {
       </div>
 
       <div className="desktopImagesContainer mt-16 mb-8">
-        <Image src={girlReading} layout="fill" className="desktopImages" />
+        <Image src={girlReading} fill className="desktopImages" sizes="inherit"  alt="Girl reading"/>
       </div>
     </div>
   );

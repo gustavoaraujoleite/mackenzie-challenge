@@ -13,7 +13,7 @@ export default function Header() {
             <BurgerMenu />
           </div>
           <div className="w-[160px] h-[66px]  relative">
-            <Image src={mackenzie_logo} layout="fill" />
+            <Image src={mackenzie_logo} fill sizes="inherit"  alt="Mackenzie logo"/>
           </div>
         </div>
 

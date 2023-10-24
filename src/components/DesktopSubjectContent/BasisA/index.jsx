@@ -14,7 +14,13 @@ export default function BasisA() {
       </p>
 
       <div className="desktopImagesContainer mt-16 mb-8">
-        <Image src={studyPartners} layout="fill" className="desktopImages" />
+        <Image
+          src={studyPartners}
+          fill
+          className="desktopImages"
+          alt="Study Partners"
+          sizes="inherit"
+        />
       </div>
 
       <div>

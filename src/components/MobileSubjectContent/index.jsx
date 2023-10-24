@@ -8,14 +8,17 @@ export default function MobileSubjectContent() {
     <div className="flex flex-col justify-center px-8 ">
       <MobileSectionCard
         src={scienceGirl}
+        alt="Science Girl"
         subjectText="Nós, os Sistemas de Ensino Mackenzie, somos líderes na oferta de uma proposta educacional sustentada pela tradição. Com materiais didáticos e soluções didático-pedagógicas, atendemos mais de 400 escolas, incluindo unidades próprias e parceiras. Destacamo-nos como o sistema de ensino cristão mais relevante academicamente no país, baseado em uma cosmovisão bíblica."
       />
       <MobileSectionCard
         src={studyPartners}
+        alt="Study partners"
         subjectText="Nós, os Sistemas de Ensino Mackenzie, oferecemos uma proposta educacional abrangente, com materiais didáticos e soluções pedagógicas, atendendo a mais de 400 escolas. Somos reconhecidos como o sistema de ensino cristão de maior relevância acadêmica no país, fundamentado em uma cosmovisão bíblica."
       />
       <MobileSectionCard
         title
+        alt="Girl studying"
         src={girlStudying}
         subjectText="Os Sistemas de Ensino Mackenzie
         traduzem os princípios essenciais

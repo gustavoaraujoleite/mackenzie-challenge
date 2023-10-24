@@ -8,7 +8,9 @@ export default function MobileSectionCard(props) {
         <Image
           src={props.src}
           className="rounded-[20px]  shadow-lg"
-          layout="fill"
+          fill
+          sizes="inherit"
+          alt={props.alt}
         />
       </div>
 
