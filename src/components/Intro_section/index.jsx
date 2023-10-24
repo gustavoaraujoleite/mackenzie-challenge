@@ -18,7 +18,9 @@ export default function IntroSection() {
           <Image
             src={header_image}
             className="rounded-[20px] mb-[-90px]  shadow-lg"
-            layout="fill"
+            fill
+            sizes="inherit"
+            alt="Intro image"
           />
         </div>
 
